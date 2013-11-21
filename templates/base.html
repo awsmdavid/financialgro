@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}style.css">
+		<link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
+		<script src="{{STATIC_URL}}index.js"></script>
+        <title>
+            FinancialGro - {% block title %}{% endblock %}
+        </title>
+        </head>
+
+    <body>
+    	<div class="header-bar">
+			<a id="logo" href="/">FinancialGro
+
+				<img id="logo-img" src="{{STATIC_URL}}financialgro-logo.jpg"></img>
+			</a>
+    	</div>
+    	<header>
+
+			<a id="tagline">make it rain from the ground up</a>
+  		</header>
+
+        <div class="content">
+
+	            {% block content %}
+
+	            {% endblock %}
+	    </div>
+
+        </div>
+    </body>
+</html> 
