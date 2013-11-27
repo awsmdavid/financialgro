@@ -117,6 +117,10 @@ a.button{
 	/*overflow:hidden makes the tabs not bleed over but makes the shadowing wonky*/
 }
 
+a{
+	color: green;
+}
+
 #selectedtab{
 	background-color:white;
 	border-right:none;
